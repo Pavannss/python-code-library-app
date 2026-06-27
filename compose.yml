@@ -43,7 +43,7 @@ services:
       - db
 
   frontend:
-    image: pavan/pyapp:afrontend_image
+    image: pavannss/pyapp:afrontend_image
     deploy:
       replicas: 1
     ports:
